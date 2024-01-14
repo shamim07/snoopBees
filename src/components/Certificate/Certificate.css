@@ -1,0 +1,107 @@
+.ficate{
+   background :#0B0C11;
+    }
+.tifi{
+    position: absolute;
+    height:200px;
+    width:200px;
+    top:4500px;
+     left:0;
+    border-radius: 50%;
+    background-color: rgba(230, 220, 70, 0.963);
+    filter:blur(400px); 
+}
+.tifii{
+    position: absolute;
+    height:200px;
+    width:200px;
+    top:4500px;
+    right: 0;
+    border-radius: 50%;
+    background-color: rgba(230, 220, 70, 0.963);
+    filter:blur(200px);  
+}
+.certif{
+    text-align: center;
+    font-family: 20px;
+    
+}
+.certi{
+    font-size: 60px;
+    font-family: 'inter'sans-serif;
+  text-align: center;
+  
+}
+.cert{
+    color: #959594;
+}
+.certificateimag{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    align-items: baseline;
+    
+}
+.cerimgone,.cerimgtwo,.cerimgthree,.cerimgfour,.cerimgfive,.cerimgsix,.cerimgseven,.cerimgeight{
+   border-radius: 50px;
+    border-radius: 50%;
+    padding: 10px;
+text-align: center;
+background-color: #4D4736;
+}
+.gone,.gtwo,.gthree,.gfour,.gfive,.gsix,.gseven,.geight{
+    margin-bottom: -5px;
+}
+/*----------certificate- end----------*/
+/*!-------certificate hide start----------*/
+.certificate-hide{
+    display: none;
+}
+.cerhide-one{
+     display: flex;
+     justify-content: center;
+     margin-top: 5px;
+     gap: 20px;
+    }
+    .cerhide-two{
+        display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      gap: 20px;
+    }
+    .cerhide-three{
+       display:flex;
+       justify-content:start;
+       margin-top: 10px;
+margin-left: 130px;
+       gap: 20px;
+    }
+/*!-------certificate hide end----------*/
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .certificate-hide{display: block;
+    } 
+    .certificateimag{
+        display: none;
+    }
+}
+ 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+   .certificate-hide{display: block;
+    } 
+    .certificateimag{
+        display: none;
+    }
+}
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .certificate-hide{display: block;
+    } 
+    .certificateimag{
+        display: none;
+    } 
+}
+ 

@@ -1,0 +1,150 @@
+.conmap{
+    background-color: #0B0C11; 
+}
+.conhed
+{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.certi{
+    margin-top: -8px;
+}
+.mapdet{
+    text-align: center;
+}
+.maphead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mapandcontac{
+    display: flex;
+margin-top: 30px;
+justify-content: space-around;}
+
+.map,.maap{
+height: 600px;
+width:550px;
+}
+.maap{
+    filter: invert(100%);
+}
+.contacform{
+height: 600px;
+width: 550px;
+background-color: #111217;
+}
+/*=====fromst===========*/
+
+.fromhead{
+    margin-top: 40px;
+    font-size:25px;
+    margin-left: 50px;
+}
+.fro{
+    height: 550px;
+    width: 500px;
+}
+input{
+    background-color: #1A1A1E;
+    color: #C0C0BF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 2px solid  #1A191E ;
+    box-shadow: none;
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    outline: none;
+}
+input:focus{
+    border-color: #efcca2;
+}
+
+   .btn{
+    margin-top: 30px;
+    margin-left: 60px;
+    
+     height: 60px;
+     width:400px ;
+    background-color: #FACD35;
+    color: #111217;
+    font-size: 20px;
+    text-align: center;
+    border: #FACD35;
+    transition: .5s;
+    cursor: pointer;
+   } 
+   .btn:hover{
+    background-color:#1A191E;
+    color: aliceblue;
+   }
+
+.faname{
+    font-size: 20px;
+  font-weight: 800;
+  
+}
+.lname{
+    font-size:20px;
+font-weight: 800;
+}
+.fnamlname{
+display: flex;
+gap: 40px;
+text-align: start;
+justify-content: center;
+margin-top: 30px;
+margin-left: 50px;
+}
+.email,.phone{
+margin-top: 60px;
+font-size:20px ;
+margin-left: 60px;
+}
+.en,.phn{
+   height: 30px;
+   width: 390px;
+   border-radius: 5px;
+
+}
+ /*=====fromstend===========*/
+
+footer{
+    margin-top: 100px;
+   padding-bottom: 100px;
+text-align: center;
+font-size: 30px;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+   .mapandcontac{
+    flex-direction: column;
+   }
+}
+ 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .mapandcontac{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+       }
+
+}
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+ 
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    
+}

@@ -1,0 +1,204 @@
+.wedoo{
+    background-color:#0B0C11;
+   
+}
+  .three-box{
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    margin-left: 40px;
+    gap:40px
+  }  
+/*yelllo spottstart*/
+.oone{
+    position: absolute;
+    height:160px;
+    width:160px;
+
+    top:1100px;
+    border-radius: 50%;
+    background-color: rgba(239, 231, 68, 0.8);
+    filter:blur(150px);
+} 
+.ttwo {position: absolute;
+    right: 0;
+    top:1100px;
+    background-color: rgba(140, 129, 6, 0.8);
+    width: 160px;
+    height:160px;
+    
+    filter:blur(150px);
+   }
+   .tthree{
+    position: absolute;
+    right: 50%;
+    top:1800px;
+    background-color: rgba(140, 129, 6, 0.8);
+    width: 160px;
+    height:160px;
+     filter:blur(150px);
+ }
+ .ffour{
+    position: absolute;
+    left: 0px;
+    top:2300px;
+    background-color: rgba(140, 129, 6, 0.8);
+    width: 160px;
+    height:160px;
+     filter:blur(150px);  
+ }
+   /*........yelllo spottstart ...end.......*/
+   #sec{
+    color: aliceblue;
+   }
+   
+  
+.one, .two, .there
+{ background-color: #16171C;
+margin-top: -100px;
+border-radius: 10px;
+text-align: center;
+padding:  50px  20px;
+align-items: baseline;
+
+}
+
+
+.onesecu,.indu,.sceser{
+    font-weight: 300;
+    text-align: left;
+    margin-top: 20px;
+}
+.tala,.twopri,.thereimg{
+    margin-left: 10px;
+}
+
+.security,
+ .twoDpri,
+ .ind {
+    color:#ffff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-top: -8px;
+}
+.whatwe{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+.whatwedo{
+
+    text-align: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+      color:#FFF;
+}
+.Today{
+margin-top: 40px;
+text-align:center;
+ font-size: 16px;
+}
+.Today-hide{
+    display: none;
+    margin-top: 20px;
+    text-align:center;
+     font-size: 16px;
+}
+.wedoservice{
+    margin-left: px;
+}
+
+#groupone, #grouptwo {
+    display: flex;
+    gap:40px;
+    margin-left: 30px;
+   
+}
+#groupone{
+    margin-top: 300px;
+   
+}
+#grouptwo{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+
+
+
+.pen{
+    text-align: center;
+    font-family: 'inter'sans-serif;
+    
+}
+.peni{
+    text-align:center;
+    font-family: 'neue_machina' sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+    color:#ffff;
+    font-size: 30px;
+     line-height: 40px;
+    }
+
+.weimg{
+ padding-top:20px ;
+}
+.serviceone,.servicetwo,.servicethree,.servicefour,.servicefive,.servicesix{
+    background-color: #111217;
+ height: 320px;
+ width: 370px;
+    border-radius: 10px;
+  }
+  .oneimg,.twoimg,.threeimg,.fourimg,.fiveimg,.siximg{
+     text-align: center;
+
+  }
+  .wedoservice-hide{display: none;}
+  /*===========*/
+  @media (min-width: 768px) and (max-width: 1024px){
+    .three-box {
+        gap:15px;
+     }
+ .wedoservice #groupone{
+     gap:20px;
+ }
+  }
+  
+   /* Media Query for low resolution  Tablets, Ipads */
+   @media (min-width: 481px) and (max-width: 767px) {
+    .whatwe{
+        margin-top: -12px;
+        font-size: 20px; 
+    }
+    .wedoservice-hide{
+        display: block;
+        margin-top: 300px;
+       
+    }
+    #groupone-hide,#grouptwo-hide,#groupthree-hide{
+        display: flex;
+        gap:20px;
+        margin-left: 15px;  
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+    .wedoservice{
+        display:none;
+    }
+    .peni{
+        margin-top: -4px;
+        line-height: 24px;
+    }
+    .Today{
+        display:none;
+    }
+    .Today-hide{
+        display: block;
+    }
+    
+}
+

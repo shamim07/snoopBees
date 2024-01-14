@@ -1,0 +1,260 @@
+.dowe{
+    background-color: #0B0C11; 
+}
+#circle{
+    background-image: url(../../../public/circlebg.svg);
+    background-position: center;
+    
+}
+
+.whyyellow{
+    position: absolute;
+    height:200px;
+    width:100px;
+    top:3500px;
+  
+    right: 0;
+    border-radius: 50%;
+    background-color: rgba(230, 220, 70, 0.963);
+    filter:blur(200px);  
+}
+.whyyellow1{
+    position: absolute;
+    height:200px;
+    width:100px;
+    top:4000px;
+  
+    right: 0%;
+    border-radius: 50%;
+    background-color: rgba(230, 220, 70, 0.963);
+    filter:blur(200px);  
+}
+.whyyellow2{ position: absolute;
+    height:200px;
+    width:100px;
+    top:4000px;
+  
+    left: 0%;
+    border-radius: 50%;
+    background-color: rgba(230, 220, 70, 0.963);
+    filter:blur(200px); 
+
+}
+
+.whysnoop{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    color: #FEFEFE;
+}
+
+
+.whysnoopline{
+ font-size: 50px;
+ font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+   color: #FEFEFE;
+   
+}
+#five{
+    display: flex;
+  justify-content: space-around;
+  line-height: 25px;
+}
+#five-hide{
+    display: none;
+}
+.prag{
+    text-align: center;
+}
+.suc{
+    color: #FACD35;
+    font-size: 50px;
+
+}
+.cs{
+    font-size: 20px;
+    color: #BDBCB7;
+}
+#rainbow{
+    width: 600px;
+    position: absolute;
+    padding-left: 50px;
+}
+#blackcir{
+width:500px;
+
+
+}
+
+
+
+
+ 
+ /*-------------rainbowcircle-start----------*/
+ #circle{
+    padding-top: 100px;
+   
+ }
+ #map{
+    width: 1100px;
+    padding-bottom: 60px;
+    text-align: center;
+    margin-left: 50px;
+ }  
+  .ci{
+    line-height: 20px;
+  }  
+.cle{
+    line-height: 30px;
+    color: #FEFEFD;
+  
+  
+}
+h5{
+    color: #A09E98;
+}
+/*===========rainbowcircle===start==*/
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8 {
+    position: absolute;  
+    line-height: 8px;
+}
+.item10{
+    position: relative;
+}
+.item6{
+right:100px
+}
+.item5{
+    right: 100px;
+    margin-top: 300px;
+}
+.item4{
+right:250px ;
+margin-top: 580px;
+}
+.item3{
+    right: 1050px;
+    margin-top:550px;
+}
+.item2{
+    left:100px;
+    margin-top: 400px;
+}
+.item1{
+    left: 100px;
+    margin-top: 40px;
+}/*===========rainbowcircle===end....==*/
+/*===========rainbow--circle--hide===start==*/
+.rainbow-circle-hide{
+   display: none;
+  
+}
+.item-hide-9{
+    margin-left: 50px;
+}
+.item1-hide,.item2-hide,.item3-hide,.item4-hide,.item5-hide,.item6-hide,.item7-hide,.item8-hide {
+    position: absolute;  
+    line-height: 8px;
+    font-size: 10px;
+}
+.item1-hide{
+    left: 50px;
+    margin-top: 20px;
+}
+
+    .item2-hide{
+        left:50px;
+        margin-top: 200px;
+    }
+    .item3-hide{
+       left:50px;
+        margin-top:350px;
+    }
+    
+
+.item6-hide{
+right:40px
+}
+.item5-hide{
+    right: 20px;
+    margin-top: 130px;
+}
+.item4-hide{
+right:70px ;
+margin-top: 300px;
+}
+
+
+/*===========rainbow---circle---hide===end==*/
+
+/
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    #five{
+        display: none;
+    }
+    #five-hide{
+        display: block;
+    }
+    .five-one-hide,.five-two-hide{
+        display: flex;
+        margin-left: 500px;
+      }
+}
+ 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .rainbow-circle-hide{
+        display: block;
+     }
+     #circle{
+        display: none;
+     }
+    #five{
+        display: none;
+    }
+    #five-hide{
+        display: block;
+        margin-left: 100px;
+    }
+    .five-one-hide,
+    .five-two-hide{
+        display: flex;
+      
+      }
+     .five-one-hide{
+        
+  gap: 25px
+     }
+     .five-two-hide{
+        margin-left: 150px;
+    gap: 25px;
+  }
+     }
+
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    #five{
+        display: none;
+    }
+    #five-hide{
+        display: block;
+    }
+    .five-one-hide,.five-two-hide{
+        display: flex;
+      }
+      .five-one-hide{
+        margin-left: 57px;
+  gap: 25px
+     }
+     .five-two-hide{
+        margin-left: 195px;
+    gap: 25px;
+  }
+}
+ 
+/* Media Query for Laptops and Desktops */
