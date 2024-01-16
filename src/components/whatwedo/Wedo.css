@@ -7,9 +7,9 @@
     grid-template-columns:30% 30% 30%;
     margin-left: 40px;
     gap:40px
-  }  
+  }
 /*yelllo spottstart*/
-.oone{
+  .oone{
     position: absolute;
     height:160px;
     width:160px;
@@ -40,7 +40,7 @@
  .ffour{
     position: absolute;
     left: 0px;
-    top:2300px;
+    top:2000px;
     background-color: rgba(140, 129, 6, 0.8);
     width: 160px;
     height:160px;
@@ -80,6 +80,7 @@ align-items: baseline;
     font-weight: 800;
     line-height: 40px;
     margin-top: -8px;
+    font-family: 'neue-machina-regular';
 }
 .whatwe{
     position: absolute; 
@@ -89,12 +90,13 @@ align-items: baseline;
     font-size: 30px;
 
 }
+
 .whatwedo{
 
     text-align: center;
     align-items: center;
-    font-family: 'Inter', sans-serif;
-      color:#FFF;
+    font-family: 'neue-machina-regular';
+      color:#FEFEFE;
 }
 .Today{
 margin-top: 40px;
@@ -102,6 +104,7 @@ text-align:center;
  font-size: 16px;
 }
 .Today-hide{
+   color: #C0C0BF;
     display: none;
     margin-top: 20px;
     text-align:center;
@@ -136,11 +139,11 @@ text-align:center;
 }
 .peni{
     text-align:center;
-    font-family: 'neue_machina' sans-serif;
+    font-family: 'neue-machina-regular';
     margin-top: 30px;
     font-size: 20px;
-    color:#ffff;
-    font-size: 30px;
+    color:#FEFEFE;
+    font-size: 25px;
      line-height: 40px;
     }
 

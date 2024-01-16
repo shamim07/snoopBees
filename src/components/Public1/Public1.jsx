@@ -10,9 +10,9 @@ function Public1() {
       <section className='publicyellow2'></section>
    <div className="wrapper">
          <div className="publi">{/**publi st */}
-              <div className="publimg1"><img src="../../../  public/image/whysnoop.png" alt="" /></div>
+              <div className="publimg1"><img src="/img/whysnoop.png" alt="" /></div>
               <div className="publiched">Public Advisories</div>
-                <div className="publimg2"><img src="../../../public/image/whysnoop.png" alt="" /></div>
+                <div className="publimg2"><img src="/img/whysnoop.png" alt="" /></div>
           </div>{/**publi end */}
           <div className="pubprag">Before you can publish a security advisory or request a CVE identification number, you must create a draft security advisory and provide  <br />information about the versions of your project affected by the security vulnerability. For more information,</div>
            {/*-----public--data--start---*/}

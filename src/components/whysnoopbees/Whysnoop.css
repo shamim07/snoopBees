@@ -46,15 +46,19 @@
    justify-content: center;
     align-items: center;
     color: #FEFEFE;
+    padding-bottom: 30px;
+    padding-top: 100px;
 }
 
 
 .whysnoopline{
- font-size: 50px;
- font-weight: bold;
-    margin-left: 20px;
-    margin-right: 20px;
-   color: #FEFEFE;
+font-family: 'neue-machina-regular'; 
+font-size: 50px;
+font-weight: bold;
+margin-left: 20px;
+margin-right: 20px;
+color: #FEFEFE;
+
    
 }
 #five{
@@ -66,7 +70,14 @@
     display: none;
 }
 .prag{
-    text-align: center;
+    color:  #C0C0BF;
+text-align: center;
+font-family: 'Inter';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.8px ;
+text-align: center;
 }
 .suc{
     color: #FACD35;
@@ -189,7 +200,7 @@ margin-top: 300px;
 
 /*===========rainbow---circle---hide===end==*/
 
-/
+
 
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {

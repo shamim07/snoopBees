@@ -6,7 +6,7 @@ export default function Navbar() {
 
   const [fix, setFix] = useState(false)
   function setFixed(){
-      if(window.scrollY >=120){
+      if(window.scrollY >=100){
           setFix(true)
       }else{
           setFix(false)
@@ -20,11 +20,11 @@ export default function Navbar() {
    
     <header className={fix ? 'heading  fixed' : 'heading'}>
     
-     <div className="logo"><Link to='Header'><img src="../../../../public/image/logo.png" alt="SnoopBees" /></Link>
+     <div className="logo"><Link to='Header'><img src="/img/logo.png" alt="SnoopBees" /></Link>
      </div>
        
        <div className="menu"onClick={() => setMenuOpen(!menuOpen)}  >
-      <img src="../../../../public/image/hamburgwhite.png" />
+      <img src='/img/hamburg-menu-2.png'/>
      
         </div>
 

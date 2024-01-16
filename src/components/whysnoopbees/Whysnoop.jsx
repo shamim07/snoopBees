@@ -8,12 +8,12 @@ function Whysnoop() {
       <div className="wrapper">
         <div className="whysnoop">{/**whysnoop-start */}
             <div className="whysnoopimg">
-              <img src="../../../public/image/whysnoop.png" alt="" />{/**whyysnoopimp---end */}
+              <img src="/img/whysnoop.png" alt="" />{/**whyysnoopimp---end */}
               </div>
             
               <div className='whysnoopline'>Why SnoopBees</div>
                <div className="whysnoopimg">
-                   <img src="../../../public/image/whysnoop.png" alt="" /></div>
+                   <img src="/img/whysnoop.png" alt="" /></div>
                  </div>{/**whyysnoop-end */}
         <div className="prag">As a vendor-neutral company with no external investment, we could apply our team's years of solid experience and diverse skills to provide security know-ho on technical and non-technical subjects. We did not just test but we believe   that a strong cyber security drives our client's business growth and innovation; this is our goal.</div>
 
@@ -78,7 +78,7 @@ function Whysnoop() {
           <div className="item6"><h1 className="cle">34%</h1>
           <h5>WEB APS</h5></div>
          
-           <div className="item9"><img id='map' src="../../../public/circle/map.png" alt="" /></div>
+           <div className="item9"><img id='map' src="/img/map.png" alt="" /></div>
                   
         </div> {/*-------------rainbowcircle-End----------*/}
 <div className="rainbow-circle-hide">  
@@ -98,7 +98,7 @@ function Whysnoop() {
           <div className="item6-hide"><h1 className="cle">34%</h1>
           <h5>WEB APS</h5></div>
          
-           <div className="item-hide-9"><img id='map-hide' src='../../../public/raindow-sml.png' alt="" />
+           <div className="item-hide-9"><img id='map-hide' src='/img/raindow-sml.png' alt="" />
            </div>
 </div> {/*-------------rainbow-circle-hide
 -End----------*/}

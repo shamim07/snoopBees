@@ -39,10 +39,16 @@
 /*------------public advisor--start----------*/
 /*------------public advisor--start----------*/
 .publiched{ 
-    font-size: 50px;
-    font-weight: bolder;
-    text-align: center;
-    padding: 20px;
+    color:  #FEFEFE;
+text-align: center;
+font-family: 'neue-machina-regular'; 
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: 98px ;
+font-weight: bolder;
+text-align: center;
+padding: 20px;
 }
 .publi{
     display: flex;
@@ -51,8 +57,15 @@
 
 }
 .pubprag{
-    text-align: center;
-    color: #959594;
+    color:  #C0C0BF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height:  28.8px ;
+text-align: center;
+   
 }
 /*------------public advisor----end----------*/
 /*------------public advisor--end----------*/
@@ -210,23 +223,11 @@ margin-bottom: 200px;
 }
  
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
-    .publicdata{display: none;}
-    .public-hide-start{
-        display: block;
-    }
-    .readmore{
-        margin-left: 226px;
-       cursor: pointer;
-      }
-}
+
  
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
-    .readmore{
-        margin-left: 226px;
-       cursor: pointer;
-      }
+   
 }
     
     
@@ -234,8 +235,5 @@ margin-bottom: 200px;
     
 
  
-/* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px){
-    
-}
+
 

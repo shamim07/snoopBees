@@ -2,7 +2,7 @@
 .headd{
 background-size: cover;
 background-color: #111216;
-background-image: url(../../../public/img/hero-bg-shap.svg);
+background-image: url(../../assets/img/hero-bg-shap.svg);
 background-position: center;
 background-repeat:no-repeat;
 background-size: contain;
@@ -53,20 +53,28 @@ margin-top: -150px;
 
 .treading{
     color:#FACD35;
-    padding:20px 0px;
+    font-family: 'neue-machina-regular';
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.6px ;
+letter-spacing: 2.1px;
+margin-bottom: -20px;
+padding-top: 50px;
 }
 .why{
-    font-family: 'neue_mechina', sans-serif;
-     font-weight: 600;
-     font-size: 70px;
-     line-height: 1;
-     color:#FFF;
+    font-family: 'neue-machina-bold';
+    font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: 98px;
+color:#FeFeFe;
 }
 .img1{
     max-height: 400px;
     width: auto;
-    margin-top: 80px;
-    margin-right: 10px;
+   margin-right: 10px;
+   margin-top: -100px;
 }
 .joke{
    color:#C0C0BF;
@@ -77,17 +85,20 @@ margin-top: -150px;
     line-height: 1.2;
 }
 #btn-get{
-    margin-top: 50px;
-    width: 190px;
-    height: 50px;
-    background-color: #FACD35;
-    color: #000;
-    font-size: 20px;
+margin-top: 50px;
+width: 190px;
+ height: 50px;
+background-color: #FACD35;   
 border-radius: 5px;
-font-weight: 500;
 box-shadow: none;
 text-shadow: none;
 border: transparent;
+color:  #050505;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {
