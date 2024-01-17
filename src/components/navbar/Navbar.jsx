@@ -1,4 +1,4 @@
-import { Link, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import { Link,  } from 'react-scroll';
 import  { useState } from 'react'
 import './navbar.css'
 
@@ -20,17 +20,17 @@ export default function Navbar() {
    
     <header className={fix ? 'heading  fixed' : 'heading'}>
     
-     <div className="logo"><Link to='Header'><img src="/img/logo.png" alt="SnoopBees" /></Link>
+     <div className="logo"> <Link to='Header'> <img src="/img/logo.png" alt="SnoopBees" /></Link>
      </div>
        
-       <div className="menu"onClick={() => setMenuOpen(!menuOpen)}  >
+       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}  >
       <img src='/img/hamburg-menu-2.png'/>
      
         </div>
 
        <ul className={ menuOpen ? "open" : ""}>
        
-        <li className='hamburg'  ><Link to='Wedo' 
+        <li className='navitem'  ><Link to='Wedo' 
       spy={true} 
       smooth={true} 
       offset={50} 
@@ -65,7 +65,7 @@ export default function Navbar() {
                         
                         
                        
-        <button className="launch"> <a  >Launch App </a>  </button>
+         <a className="launch" >Launch App </a>  
          </ul>
        
       

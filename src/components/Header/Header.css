@@ -63,6 +63,7 @@ margin-bottom: -20px;
 padding-top: 50px;
 }
 .why{
+    box-sizing: border-box;
     font-family: 'neue-machina-bold';
     font-size: 70px;
 font-style: normal;
@@ -101,17 +102,31 @@ font-weight: 500;
 line-height: normal;
 }
  /* Media Query for Mobile Devices */
- @media (max-width: 480px) {
-    .imgtext {
-        flex-direction: column ;
-      }
-}
+
  
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 350px) and (max-width: 767px) {
     .imgtext {
         flex-direction: column ;
-      }
+    }
+  .why{ 
+    font-size: 28px;
+ font-weight: 400;
+    line-height: 43px;
+    color: #FeFeFe;} 
+    .joke{
+        font-size: 16px;
+    }
+.img1{
+max-height: 319px;
+width: auto;
+margin-right: 10px;
+margin-top: -9px;;
+}
+#btn-get{
+    position: absolute;
+     margin-top: 296px;
+}
 }
  
 /* Media Query for Tablets Ipads portrait mode */

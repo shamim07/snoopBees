@@ -23,22 +23,23 @@ function Training () {
       <section className='what'></section>
      <div className="wrapper">
           <div className="tren">Training </div>
-         <div className="tre">This training is in the form of theories and workshops for those who are interested able <br /> to gain knowledge and reduce the vulnerability of information systems also the risk that <br /> may occur </div>
-         <div className="slidercointainer">{/*===slidercointainer=stsrt=*/}
+         <div className="tre">This training is in the form of theories and workshops for those who are interested able to gain knowledge and reduce the vulnerability of information systems also the risk that  may occur </div>
+         <div className="slidercointainer">
+          {/*===slidercointainer=stsrt=*/}
    
            <div className="menulist">
              <div className="listone" onClick={()=>setIndex(0)} >
               
               
-              <div className="listimgone" ><img src="/img/1sd.png" alt="" /></div> 
+              <div className="listimgone" > <img src="/img/1sd.png" alt="" /> </div> 
                <div className="cyber">Cyber Security <br /> Workshop Training</div>
                </div>
              <div className="listtwo"onClick={()=>setIndex(1)} >
-               <div  className="listimgtwo"  ><img src="/img/2sd.png" alt="" />  </div>
+               <div  className="listimgtwo"  > <img src="/img/2sd.png" alt="" />  </div>
               <div className="secure" >Secure <br />CoadingTraining</div>
                
              </div>
-             < div className="listthree"onClick={()=>setIndex(2)} >
+             < div className="listthree" onClick={()=>setIndex(2)} >
                <div className="listimgthree"> 
                  <img src="/img/3sd.png" alt="" />
                
@@ -51,7 +52,7 @@ function Training () {
            <img id='slide' src={images[index]}  className='banner 'alt="" /> 
            
        
-           <img src="/img/leftaro.png" alt=""onClick={next} className="leftaro" />
+           <img src="/img/leftaro.png" alt="" onClick={next} className="leftaro" />
            <img src="/img/ritaro.png" alt="" onClick={next}className="rightaro" />
  
    <img src="/img/leftarrowyelo.png" alt=""  className="leftaro-hiden" />
