@@ -1,4 +1,3 @@
-
 import'./Training.css';
 import   { useState } from "react";
 const images=[
@@ -8,9 +7,10 @@ const images=[
     '/img/traning-slide3.png',
   ]
 
-
+ 
 function Training () {
-  
+ 
+
   const [index, setIndex] = useState(0);
   const next = () => {
     setIndex((i) => (i + 1) % images.length);
@@ -27,28 +27,31 @@ function Training () {
          <div className="slidercointainer">
           {/*===slidercointainer=stsrt=*/}
    
-           <div className="menulist">
-             <div className="listone" onClick={()=>setIndex(0)} >
-              
-              
-              <div className="listimgone" > <img src="/img/1sd.png" alt="" /> </div> 
-               <div className="cyber">Cyber Security <br /> Workshop Training</div>
-               </div>
-             <div className="listtwo"onClick={()=>setIndex(1)} >
+           <div  className="menulist">
+            
+             <div className='listone '  onClick={()=>setIndex(0)} href='#'> 
+                <div> <img src="/img/1sd.png" alt="" />
+                      </div>
+              <div className='cyber'>
+              Cyber Security  Workshop Training
+                 </div>
+                </div>
+               
+                <div className="listtwo" onClick={()=>setIndex(1)} >
                <div  className="listimgtwo"  > <img src="/img/2sd.png" alt="" />  </div>
-              <div className="secure" >Secure <br />CoadingTraining</div>
+                 <div className="secure" >Secure CoadingTraining
+                  </div>
                
-             </div>
-             < div className="listthree" onClick={()=>setIndex(2)} >
-               <div className="listimgthree"> 
-                 <img src="/img/3sd.png" alt="" />
-               
-               </div>
-               <div className="securityy">Security awerness  <br />Training</div>
-             </div>
+                 </div>
+                 < div className="listthree" onClick={()=>setIndex(2)} >
+                    <div className="listimgthree"> 
+                      <img src="/img/3sd.png" alt="" />
+                           </div>
+                  <div className="securityy">Security awerness  <br />Training</div>
+                </div>
          </div>
    
-         <div className="sliderimg">
+         <div className="sliderimg" id="hi">
            <img id='slide' src={images[index]}  className='banner 'alt="" /> 
            
        

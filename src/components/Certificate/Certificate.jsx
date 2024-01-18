@@ -31,9 +31,9 @@ function Certificate() {
   <div className="cerimgthree"><img src="/img/3gp.png" alt="" className="gthree" /></div>
   </div> {/*!-------cerhide-one--end----------*/}
 <div className="cerhide-two">{/*!-------cerhide-two--start----------*/}
-    <div className="cerimgfour"><img src="/img/4.png" alt="" className="gfour" /></div>
-  <div className="cerimgfive"><img src="/img/5.png" alt="" className="gfive" /></div>
-  <div className="cerimgsix"><img src="/img/6.png" alt="" className="gsix" /></div></div>{/*!-------cerhide-two-end----------*/}
+    <div className="cerimgfour"><img src="/img/4ad.png" alt="" className="gfour" /></div>
+  <div className="cerimgfive"><img src="/img/5ad.png" alt="" className="gfive" /></div>
+  <div className="cerimgsix"><img src="/img/6ad.png" alt="" className="gsix" /></div></div>{/*!-------cerhide-two-end----------*/}
   <div className="cerhide-three">
   <div className="cerimgseven"><img src="/img/7.png" alt="" className="gseven" /></div>
   <div className="cerimgeight"><img src="/img/8.png" alt="" className="geight" /> </div>
