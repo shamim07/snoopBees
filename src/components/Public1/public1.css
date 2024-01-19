@@ -24,7 +24,7 @@ table {
   .d-r,.d-g,.d-y{
     height: 26px;
 margin-left :10px;
-border-spacing: 0px 20px;
+border-spacing: 0px 60px;
 text-align: left;
 width: 26px;
 border-radius:50%
@@ -131,28 +131,23 @@ text-align: center;
 
 /*------publicdatastart----*/
 /*------publicdatastart----*/
-.publicdata{/*publicdata*/
-    margin-left: 90px;
+/* .publicdata{/*publicdata*/
+    /*margin-left: 90px;
     margin-right: 90px;
     text-transform: uppercase;
     margin-top: 80px;
   
 }
 .pub-head{/*publicdata*/
-    display: flex;
- margin-bottom: 20px;
- justify-content: space-around;
- background-color: #111217;
-}
-
+    /*
 .dataa1,.dataa2,.dataa3{/*publicdata*/
-    color: #ffffff;
+   /* color: #ffffff;
     font-size: 20px; 
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .publldtata{/*publicdata*/
-    background-color: #111217;
+    /*background-color: #111217;
     margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -162,19 +157,19 @@ text-align: center;
      margin-bottom: 20px;
 }
 .d1,.d7{/*publicdata*/
-    height: 20px;
+   /* height: 20px;
 width: 20px;
 border-radius: 50%;
 background-color: #FACD35;
 }
 .d2,.d4,.d6{/*publicdata*/
-    height: 20px;
+    /*/*height: 20px;
     width: 20px;
     border-radius: 50%;
     background-color: #F41010;
 }
 .d3,.d5{/*publicdata*/
-    height: 20px;
+    /*height: 20px;
     width: 20px;
     border-radius: 50%;
     background-color:#14F32B; 
@@ -185,7 +180,8 @@ background-color: #FACD35;
 .d5{margin-left: 54px;}.d6{margin-left: 37px;}
 .d7{margin-left: 60px;}
 .data4{
-    margin-left: 20px;/*publicdata*/
+    margin-left: 20px;
+  
 }
 /*-------publicdata-----end_---*/
 
@@ -228,11 +224,7 @@ margin-bottom: 200px;
 /* Media Query for low resolution  Tablets, Ipads */
 
  
-/* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){
-   
-}
-    
+
     
     
     

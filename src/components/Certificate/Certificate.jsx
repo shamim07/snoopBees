@@ -19,7 +19,7 @@ function Certificate() {
   <div className="cerimgfive"><img src="/img/5ad.png" alt="" className="gfive" /></div>
   <div className="cerimgsix"><img src="/img/6ad.png" alt="" className="gsix" /></div>
   <div className="cerimgseven"><img src="/img/7.png" alt="" className="gseven" /></div>
-  <div className="cerimgeight"><img src="../../../public/img/8.png" alt="" className="geight" /> </div>
+  <div className="cerimgeight"><img src="/img/8.png" alt="" className="geight" /> </div>
   
 </div>{/*!-------certificate export default function end----------*/}
 
